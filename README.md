@@ -45,8 +45,8 @@ Then you can see the API running on [http://localhost:8082](http://localhost:808
 ### Redux Unit - Reddit Clone
 - GET (all posts) /POST (add post): `http://localhost:8082/api/posts`
 - DELETE: `http://localhost:8082/api/posts/:id`
-- GET (up-vote): `http://localhost:8082/api/posts/vote/increase/:id`
-- GET (down-vote): `http://localhost:8082/api/posts/vote/decrease/:id`
+- GET (up-vote): `http://localhost:8082/api/posts/votes/increase/:id`
+- GET (down-vote): `http://localhost:8082/api/posts/votes/decrease/:id`
 
 - GET (all comments) / POST (add comment): `http://localhost:8082/api/comments`
 - DELETE: `http://localhost:8082/api/comments/:id`
