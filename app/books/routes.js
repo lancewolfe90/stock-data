@@ -4,6 +4,7 @@ const db = require('../../lib/db')
 
 router.get('/books', (req, res) => {
   const books = db.books.findAll().slice(0).sort((a, b) => a.name > b.name ? 1 : 0)
+  console.log("htting the books route", books[0]);
   res.json(books)
 })
 
