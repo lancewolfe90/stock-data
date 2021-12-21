@@ -20,8 +20,8 @@ router.get('/', (req, res, next) => {
       items: {
         href: linker(req, '/api/items')
       },
-      funds: {
-        href: linker(req, '/api/funds')
+      stocks: {
+        href: linker(req, '/api/stocks')
       },
     }
   })
